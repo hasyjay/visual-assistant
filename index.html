@@ -14,9 +14,11 @@
      <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
      <!-- main css -->
      <link rel="stylesheet" href="./css/igobo.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
  
- </style>
+ 
  </head>
  <body>
  <section id="header">
@@ -65,11 +67,11 @@
 <article id="text" class="my-5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 pb-5">
+            <div class="col-sm-8 pb-5"  data-aos="fade-up-right">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione delectus itaque eum asperiores laboriosam perspiciatis illo fugiat accusantium illum!</p>
                 <a href="#"><button class="btn btn-success ml-5 mt-4 w-70%" style="width:30%">CALL US.</button></a>
             </div>
-            <div class="col-sm-4 col-xs-0 sm-hide" >
+            <div class="col-sm-4 col-xs-0 sm-hide" data-aos="flip-right">
                 <img src="./images/2019-11-14 16_17_39-VISUAL ASSISTANT – Figma.png" class="img-fluid  " width="900px" height="400px"alt="">
             </div>
            
@@ -81,11 +83,11 @@
     <div class="container">
         <h1 class="text-center px-3">OUR SERVICES</h1>
         <div class="row">
-            <div class="col-sm-12 col-md-4 text-center">
+            <div class="col-sm-12 col-md-4 text-center"data-aos="fade-up-right" >
                 <div class="card my-3 bg">
                         <img src="./images/imgbin-authentication-computer-icons-verified-NKUF0beNz2kGCMPzfrwFkALec 1.png" class=" img-fluid mx-auto" width="50px" height="20%">
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed maxime obcaecati quibusdam dignissimos dolor corrupti error voluptas, cupiditate quas?</p>
+                        <div class="card-body" >
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed maxime obcaecati quibusdam dignissimos dolor corrupti error voluptas, cupiditate quas?</p>
                             <a href="#"><button class="btn btn-success ml-5 mt-4 mx-auto" style="width:40%">GET HELP</button></a>
                         </div>
                 </div>
@@ -99,7 +101,7 @@
                             </div>
                     </div>
             </div>
-            <div class="col-sm-12 col-md-4 text-center">
+            <div class="col-sm-12 col-md-4 text-center"data-aos="fade-up-left">
                     <div class="card my-3 bg">
                             <img src="./images/imgbin-triangle-text-brand-communication-gmail-gmail-logo-7rL17Yd3DhhWGUcksPYffCa9S 1.png" class="text-center  img-fluid mx-auto" width="50px" height="20%">
                             <div class="card-body">
@@ -154,5 +156,11 @@
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- boostrap -->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+  
+        AOS.init({
+          duration: 2000,
+        });
+        </script>
 </body>
 </html>
