@@ -67,7 +67,16 @@ body {
       background-size: 50px;
       border-radius: 3px;
   }
+  .relative {
+      position: relative;
+  }
   
+  .bagde {
+      position: absolute;
+      top: 90%;
+      right: 80%;
+  }
+ 
   
 
   @media screen and (min-width: 576px){
@@ -78,6 +87,9 @@ body {
     .center {
         text-align: start;
         padding-top: 0;
+    }
+    .star-grid {
+      padding: 0 auto;
     }
   }
 
